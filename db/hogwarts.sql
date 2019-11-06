@@ -7,3 +7,8 @@ CREATE TABLE students(
   house VARCHAR(255),
   age INT2
 );
+
+CREATE TABLE house(
+  id SERIAL4 PRIMARY KEY,
+  name VARCHAR(255),
+)
